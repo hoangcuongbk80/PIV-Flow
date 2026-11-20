@@ -1,0 +1,6 @@
+base: short.yaml
+model:
+  policy: half
+  use_verifier: false
+train:
+  disable_verifier_loss: true

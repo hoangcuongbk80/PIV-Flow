@@ -1,0 +1,4 @@
+-r requirements.txt
+ultralytics>=8.2,<9
+# Optional tracking metrics: install the official TrackEval repository.
+# Jetson: install torch/torchvision from NVIDIA's wheel index, not from PyPI.

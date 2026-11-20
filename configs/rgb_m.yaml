@@ -1,0 +1,3 @@
+base: rgb_s.yaml
+model:
+  size: M

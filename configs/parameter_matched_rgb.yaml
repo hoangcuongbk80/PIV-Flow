@@ -1,0 +1,7 @@
+base: short.yaml
+model:
+  use_verifier: false
+  policy: full
+  proposal_adapter_hidden: 488
+train:
+  disable_verifier_loss: true

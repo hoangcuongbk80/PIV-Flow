@@ -1,0 +1,3 @@
+base: short.yaml
+train:
+  trial_weight: 0.0

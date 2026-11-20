@@ -1,0 +1,7 @@
+base: piv_s.yaml
+application:
+  root: datasets/underground
+  clips: clips.csv
+  detector_weights: checkpoints/worker/best.pt
+  # Set null for live detection; cache boxes use crop-pixel coordinates.
+  detection_cache: detections_test.csv

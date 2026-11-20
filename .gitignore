@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+datasets/
+checkpoints/
+runs/
+outputs/
+*.pth
+*.pt
+*.flo
+*.mp4
+*.avi
+configs/local.*

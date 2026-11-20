@@ -1,0 +1,32 @@
+seed: 17
+model:
+  size: S
+  iters: 4
+  radius: 4
+  pretrained: true
+  verifier: paired_quantile
+  use_verifier: true
+  policy: lower
+  margin: 0.0
+data:
+  root: datasets/FCDN
+  train_manifest: manifests/fcdn_train.jsonl
+  dev_manifest: manifests/fcdn_dev.jsonl
+  eval_manifest: manifests/fcdn_validation.jsonl
+train:
+  phases: [40000, 20000, 240000]
+  batch_size: 8
+  crop: [368, 496]
+  workers: 4
+  lr: 0.00025
+  weight_decay: 0.0001
+  clip_grad: 1.0
+  gamma: 0.8
+  trial_weight: 0.5
+  tau: 0.1
+  replay: true
+  verifier_weight: 1.0
+  amp: true
+  log_every: 100
+  validate_every: 5000
+  save_every: 5000

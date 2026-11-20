@@ -1,0 +1,6 @@
+base: piv_s.yaml
+data:
+  root: /path/to/FCDN
+  train_manifest: /path/to/manifests/fcdn_train.jsonl
+  dev_manifest: /path/to/manifests/fcdn_dev.jsonl
+  eval_manifest: /path/to/manifests/fcdn_validation.jsonl

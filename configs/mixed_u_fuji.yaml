@@ -1,0 +1,4 @@
+base: mixed_u.yaml
+data:
+  real_manifest: manifests/vbof_fuji_unlabeled.jsonl
+  eval_manifest: manifests/vbof_fuji_test.jsonl

@@ -1,0 +1,6 @@
+base: base.yaml
+model:
+  use_verifier: false
+  policy: full
+train:
+  disable_verifier_loss: true

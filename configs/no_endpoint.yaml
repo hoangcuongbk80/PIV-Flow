@@ -1,0 +1,3 @@
+base: short.yaml
+model:
+  endpoint_ablation: true

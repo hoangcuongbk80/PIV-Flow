@@ -1,0 +1,11 @@
+base: base.yaml
+data:
+  real_root: datasets/VBOF
+  eval_root: datasets/VBOF
+  real_manifest: manifests/vbof_canon_unlabeled.jsonl
+  eval_manifest: manifests/vbof_canon_test.jsonl
+train:
+  batch_size: 4
+  real_batch_size: 4
+  mixed_steps: 30000
+  consistency_weight: 0.1

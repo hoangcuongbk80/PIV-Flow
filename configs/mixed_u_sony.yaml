@@ -1,0 +1,4 @@
+base: mixed_u.yaml
+data:
+  real_manifest: manifests/vbof_sony_unlabeled.jsonl
+  eval_manifest: manifests/vbof_sony_test.jsonl
