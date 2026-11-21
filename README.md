@@ -1,6 +1,6 @@
 # PIV-Flow
 
-**Verifying Recurrent Flow Updates under Degraded Illumination for Underground Visual Monitoring**
+**PIV-Flow: Verifying Recurrent Updates for Low-Light Optical Flow**
 
 ## Installation
 
